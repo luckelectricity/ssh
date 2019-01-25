@@ -11,7 +11,7 @@ node ./index.js -h
 ```
 node ./index.js ssh -w password
 ```
-除了密码是必填以外,其余的也是可配置的
+除了密码是必填以外,其余的也是可配置的
 ```
   -V, --version              output the version number
 
@@ -34,7 +34,7 @@ node ./index.js ssh -w password
 ----------------
 
 
-# 另一种运行方式
+# 另一种运行方式
 
 运行
 `chmod -x upload`
@@ -48,5 +48,5 @@ node ./index.js ssh -w password
 ./upload ssh -w password
 
 ```
-========
+=======
 结合webpack打包的办法还在找,主要是传参的问题不知道如何解决,现在只能先打包然后运行这个脚本去上传,其实还有一种方法,就是给服务器条件ssh,然后git pull 下来代码,运行打包命令去服务器上打包,也是很棒的思路.
