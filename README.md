@@ -34,7 +34,7 @@ node ./index.js ssh -w password
 ----------------
 
 
-# 另一种运行方式
+# 另一种运行方式
 
 运行
 `chmod -x upload`
